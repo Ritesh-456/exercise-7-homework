@@ -1,0 +1,35 @@
+#main2 {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    margin-inline: auto;
+    display: flex;
+    height: 80px;
+    width: 80%;
+    margin-top: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.heading>img {
+    margin-left: 72px;
+    margin-top: 14px;
+    height: 62px;
+    width: 83px;
+}
+
+.heading>p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-left: 16px;
+    font-size: 22px;
+}
+
+p>.p2 {
+    font-size: 14px;
+}
+

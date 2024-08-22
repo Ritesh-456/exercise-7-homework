@@ -1,0 +1,71 @@
+#main3 {
+    /* background-color: pink;  */
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    margin-right: 36px;
+    display: grid;
+    gap: 0px 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.box {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    height: 208px;
+    width: 320px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    line-height: normal;
+    font-size: 26px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.box>h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 8px;
+    font-size: 27px;
+    overflow: hidden;
+}
+
+.box>h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    padding: 2px;
+    overflow: hidden;
+}
+
+.box>.Download {
+    margin: 13px;
+    padding: 2px;
+    height: 33px;
+    width: 190px;
+    color: white;
+    background-color: #5cb85c;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 8px;
+
+    &.Download>a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.box>p {
+    margin: 0px 17px;
+    padding: 0px 16px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-break: anywhere;
+}
+

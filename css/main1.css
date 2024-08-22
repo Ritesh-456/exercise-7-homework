@@ -1,0 +1,49 @@
+#main1 {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    margin-inline: auto;
+    height: 100%;
+    width: 80%;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+.container>p:first-child {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.container>p:first-child>img {
+    margin-left: 10px;
+    height: 30px;
+    width: 97px;
+}
+
+.container>p:nth-child(2) {
+    padding: 0px 150px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.downloadMW {
+    height: 43px;
+    width: 272px;
+    background-color: #00b6d1;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 8px;
+}
